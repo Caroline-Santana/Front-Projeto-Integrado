@@ -1,0 +1,67 @@
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+    height: 100%;
+    
+}
+.elements{
+    margin: 98px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.title{
+    font-size: 5.5rem;
+    font-weight: 370;
+    max-width: 550px;
+    color: #353535;
+    font-family: 'Roboto';
+    width: 200vh;
+    height: 25vh;
+    margin: 44px;
+}
+.curso{
+    font-weight: bolder;
+    color: var(--main-blue);
+}
+
+.student{
+    width: 350px;
+    height: 600px;
+    display: flex;
+    align-items: center; 
+}
+
+.cardCursos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-blue);
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 650px;
+    height: 300px;
+    transition: all 0.3s ease-out;
+}
+.cardCursos:hover{
+    box-shadow: 10px 10px 5px #0005;
+}
+.cardCursos{
+    margin: 50px;
+    display: flex;
+}
+.icone{
+    width: 100px;
+    height: 100px;
+}
+.cardCursos span{
+    color: #FFF;
+    font-family: 'Roboto';
+    margin: 24px;
+    font-size: 64px;
+}
+
